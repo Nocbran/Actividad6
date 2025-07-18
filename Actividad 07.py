@@ -70,16 +70,15 @@ while True:
     print("2. Mostrar todos los estudiantes y sus cursos ")
     print("3. Buscar estudiante por carnet ")
     print("4. Salir ")
-    opcion = int(input("Seleccione una opcion"))
 
-    if opcion == '1':
+    opcion = int(input("Seleccione una opcion: "))
+
+    if opcion == "1":
         regestudiantes()
     elif opcion == '2':
-        mostrarestudiante()
+       mostrarestudiante()
     elif opcion == '3':
         buscaestudiante()
     elif opcion == '4':
         print("Asta pronto")
         break
-    else:
-        print("Opcion invalidad")
