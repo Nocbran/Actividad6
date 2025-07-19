@@ -1,5 +1,5 @@
 estudiantes = {}
-propcurso = {}
+
 
 def regestudiantes():
     cantidad = int(input(f"\n¿Cuántos estudiantes desea ingresar?: "))
@@ -10,6 +10,9 @@ def regestudiantes():
         edad = int(input("Ingrese la edad: "))
         carrera = input("Ingrese la carrera: ")
         contcurso= int(input("Cuantos cursos se asignara?: "))
+
+        propcurso = {}
+
         for j in range(contcurso):
             print(f"\nCurso #{j+1}")
             nomcurso = input("Nombre del curso: ")
@@ -31,18 +34,18 @@ def regestudiantes():
 def mostrarestudiante():
     for carnet, datos in estudiantes.items():
         print(f"\nCarnet: {carnet}")
-        print(f"\nNombre: {datos['nomcompleto']}")
+        print(f"\nNombre: {datos['nombre']}")
         print(f"\nEdad: {datos['edad']}")
         print(f"\nCarrera: {datos['carrera']}")
         if datos['propcuros']:
             print("Cursos inscritos")
-            for propcurso, notas in datos['propcuros'].items():
+            for propcurso, notas in datos['propcursos'].items():
                 promedio = (notas['tarea']+notas['parcial']+notas['proyecto'])
                 print(f'{propcurso}')
                 print(f"Tarea: {notas['tarea']}")
                 print(f"Parcial: {notas['parcial']}")
-                print(f"Proyecto: {notas['Proyecto']}")
-                print(f"Promedio: {promedio:.f}")
+                print(f"Proyecto: {notas['proyecto']}")
+                print(f"Promedio: {promedio:.2f}")
 
 def buscaestudiante():
     carnet = input("Ingrese el carnet del estudiante: ")
