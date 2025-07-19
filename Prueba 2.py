@@ -45,7 +45,7 @@ def mostrarestudiante():
                 print(f"Promedio: {promedio:.f}")
 
 def buscaestudiante():
-    carnet = input("Ingrese el carnet del estudiante: ")
+    carnet = input("Ingrese el carnet del estudiante")
     if carnet in estudiantes:
         datos = estudiantes[carnet]
         print(f"\nCarnet: {carnet}")
@@ -73,7 +73,7 @@ while True:
 
     opcion = input("Seleccione una opcion: ")
 
-    if opcion == "1":
+    if opcion == '1':
         regestudiantes()
     elif opcion == '2':
        mostrarestudiante()
