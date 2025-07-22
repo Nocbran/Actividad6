@@ -37,9 +37,9 @@ def mostrarestudiante():
         print(f"\nNombre: {datos['nombre']}")
         print(f"\nEdad: {datos['edad']}")
         print(f"\nCarrera: {datos['carrera']}")
-        if datos['propcuros']:
+        if datos['propcurso']:
             print("Cursos inscritos")
-            for propcurso, notas in datos['propcursos'].items():
+            for propcurso, notas in datos['propcurso'].items():
                 promedio = (notas['tarea']+notas['parcial']+notas['proyecto'])
                 print(f'{propcurso}')
                 print(f"Tarea: {notas['tarea']}")
