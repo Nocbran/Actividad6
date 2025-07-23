@@ -25,8 +25,20 @@ def Reg_Clientes (n,cont=1):
 
     Reg_Clientes(n, cont + 1)
 
+def ContDestinos (listClientes, claves=None, i=0):
+    if claves is None:
+        claves = list(listClientes.Keys())
+
+    if i >= len(claves):
+        return  0
+    codigo = claves[i]
+    NumDestinos = len(listClientes[codigo]['Destinos'])
+
+    return  NumDestinos + ContDestinos(listClientes,claves,i+1)
+
+
 
 
 
 print("Bienvenido")
-n = int(print(f"\nCuantos clientes desea registrar: "))
+for codigo, datos in clientes.items()
