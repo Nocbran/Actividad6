@@ -18,9 +18,15 @@ def Calcn_simNum (n):
     else:
         return Calcn_simNum(n-1)+Calcn_simNum(n-2)
 
-'''def ContLetras ():
+def ContLetras (palabra,letra,n=0):
+    if n >= len(palabra):
+        return 0
+    elif palabra[n].lower() == letra.lower():
+        return  1 + ContLetras(palabra,letra,n+1)
+    else:
+        return ContLetras(palabra,letra,n+1)
 
-def InverText():
+'''def InverText():
     
 def CalcPotencia():
     
@@ -40,6 +46,7 @@ while True:
     if opcion == '1':
         n = int(input("Ingrese el numero: "))
         print(f"El factorial es: {CalcFactorial(n)}")
+        print(f"Desea regresar al menu?: ")
 
     elif opcion == '2':
         j = int(input("Ingrese el numero: "))
@@ -51,9 +58,11 @@ while True:
         Fib = Calcn_simNum(n)
         print(f"El resultado fibonacci es: {Fib} ")
 
-    '''elif opcion == '4':
-        ContLetras()
-    elif opcion == '5':
+    elif opcion == '4':
+        l = input(f"Ingrese la letra que sea conocer cuantas veces se repite: ")
+        Nletras = ContLetras(palabra,letra,n=0)
+        print(f"El numero de veces que se repite la letra seleccionada es: {ContLetras(l)}")
+    '''elif opcion == '5':
         InverText()
     elif opcion == '6':
         CalcPotencia()

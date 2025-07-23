@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afedc249-a4ce-4d43-afe8-11ca56ac427c" name="Changes" comment="." />
+    <list default="true" id="8e152a80-b17a-49ba-b6d3-4afa327da033" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,36 +17,19 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Nocbran"
-  }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Nocbran/Actividad6.git",
-    "accountId": "cd9d197c-9f9f-42a7-a84f-9eb7df122e38"
-  }
-}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 3
 }]]></component>
-  <component name="ProjectId" id="30DCb0aTdpuSAwJP1IeYfTnRbNp" />
+  <component name="ProjectId" id="30IRbyf2adA9tBnc1p8cqlAMfWc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.Actividad 08.executor": "Run",
+    "Python.Actividad 09.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
@@ -59,44 +42,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="afedc249-a4ce-4d43-afe8-11ca56ac427c" name="Changes" comment="" />
-      <created>1753143342753</created>
+      <changelist id="8e152a80-b17a-49ba-b6d3-4afa327da033" name="Changes" comment="" />
+      <created>1753313176029</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1753143342753</updated>
+      <updated>1753313176029</updated>
     </task>
-    <task id="LOCAL-00001" summary=".">
-      <option name="closed" value="true" />
-      <created>1753158912410</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1753158912410</updated>
-    </task>
-    <task id="LOCAL-00002" summary=".">
-      <option name="closed" value="true" />
-      <created>1753159291408</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1753159291408</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/clase 21-07-2025.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
