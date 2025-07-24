@@ -15,7 +15,7 @@ def Reg_Clientes (n,cont=1):
 
     destinos = []
     for i in range(CantDestinos):
-        destino = input(f"Destino {i+1}: ").strip()
+        destino = input(f"Destino {i+1}: ")
         destinos.append(destino)
 
     clientes[codigo] = {
@@ -41,4 +41,7 @@ def ContDestinos (listClientes, claves=None, i=0):
 
 
 print("Bienvenido")
-for codigo, datos in clientes.items()
+for codigo, datos in clientes.items():
+    print(f"Codigo: {codigo}")
+    print(f"Nombre: {datos['nombre']}")
+    print(f"Destinos: ")
