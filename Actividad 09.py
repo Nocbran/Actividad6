@@ -18,12 +18,14 @@ def Reg_Clientes (n,cont=1):
         destino = input(f"Destino {i+1}: ")
         destinos.append(destino)
 
-    clientes[codigo] = {
+    Clientes[codigo] = {
         "Nombre": nombre,
         "destino" : destinos
     }
 
     Reg_Clientes(n, cont + 1)
+
+'''*******************************************************************************'''
 
 def ContDestinos (listClientes, claves=None, i=0):
     if claves is None:
@@ -35,6 +37,11 @@ def ContDestinos (listClientes, claves=None, i=0):
     NumDestinos = len(listClientes[codigo]['Destinos'])
 
     return  NumDestinos + ContDestinos(listClientes,claves,i+1)
+'''*******************************************************************************'''
+
+def ClienteConMasDestinos(claves,i=0,MaxCliente= None, MaxCantCliente =0):
+    if i >=len(claves):
+        return MaxCliente,M
 
 
 
