@@ -49,12 +49,10 @@ def ClienteConMasDestinos(claves,i=0,MaxCliente= None, MaxCantCliente =0):
     if cantidad > MaxCantCliente:
         return  ClienteConMasDestinos(claves,i+1,nombre,cantidad)
 
-
-
-
-
-print("Bienvenido")
-for codigo, datos in clientes.items():
-    print(f"Codigo: {codigo}")
-    print(f"Nombre: {datos['nombre']}")
-    print(f"Destinos: ")
+'''*******************************************************************************'''
+def MostrarResultados():
+    print(f"\nBIENVENIDO AL LISTADO DE CLIENTES Y DESTINOS VISITADOS ")
+    for codigo, datos in Clientes.items():
+        print(f"Codigo: {codigo}")
+        print(f"Nombre: {datos['nombre']}")
+        print(f"Destinos: ")
