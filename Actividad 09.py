@@ -41,7 +41,13 @@ def ContDestinos (listClientes, claves=None, i=0):
 
 def ClienteConMasDestinos(claves,i=0,MaxCliente= None, MaxCantCliente =0):
     if i >=len(claves):
-        return MaxCliente,M
+        return MaxCliente,MaxCantCliente
+    codigo = claves[i]
+    nombre = Clientes[codigo]['nombre']
+    cantidad = len(Clientes[codigo]['Destinos'])
+
+    if cantidad > MaxCantCliente:
+        return  ClienteConMasDestinos(claves,i+1,nombre,cantidad)
 
 
 
